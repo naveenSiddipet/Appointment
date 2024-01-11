@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.details {
+  display: flex;
+  flex-direction: column;
+}
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.card {
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 60px;
+  width: 100%;
+}
+.top-section {
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.title {
+  margin-bottom: 20px;
+}
+.date {
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #8b5cf6;
+  color: white;
+  border-radius: 5px;
+  width: 30%;
+}
+.c1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 20px;
+}
+.btn2 {
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  border-radius: 10px;
+  height: 29px;
+  color: #9897f0;
+  width: 80px;
+}
+h1 {
+  font-family: Roboto;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+hr {
+  height: 1px;
+  background-color: #171f46;
+  border: none;
+  margin-top: 10px;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

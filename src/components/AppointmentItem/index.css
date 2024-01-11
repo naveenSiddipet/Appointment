@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 2px solid #b5b7c4;
+  width: 35%;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-left: 15px;
+}
+.img {
+  height: 20px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.p1 {
+  font-size: 20px;
+}
+.p2 {
+  font-size: 15px;
+  color: #b5b7c4;
+}
+.btnn {
+  border: 0px;
+  background-color: transparent;
+}
